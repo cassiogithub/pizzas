@@ -5,7 +5,7 @@
         public Guid EmpresaId { get; set; }
         public string Nome { get; set; }
         public TipoPizza Tipo { get; set; }
-        public IEnumerable<string> Ingredientes{ get; set; }
+        public IEnumerable<Ingrediente> Ingredientes{ get; set; }
         public Empresa Empresa { get; set; }
     }
 }
